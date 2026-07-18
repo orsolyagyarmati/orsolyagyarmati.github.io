@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Blog — Orsolya Gyarmati</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+<style>
+.blog-grid{display:flex;flex-direction:column;gap:2rem;margin:1.5rem 0}
+.blog-card{background:var(--off-white);border:.5px solid var(--border);border-left:4px solid var(--gold);padding:1.5rem 2rem}
+.blog-card.draft{border-left-color:var(--border);opacity:.75}
+.blog-card .meta{font-size:12px;color:var(--text-muted);letter-spacing:.05em;text-transform:uppercase;margin-bottom:8px}
+.blog-card h2{font-family:'Playfair Display',serif;font-size:22px;color:var(--navy);margin-bottom:10px;line-height:1.3}
+.blog-card p{font-size:14px;color:var(--text);line-height:1.7;margin-bottom:12px}
+.blog-card a.read-more{font-size:13px;font-weight:600;color:var(--gold);text-decoration:none;letter-spacing:.05em;text-transform:uppercase}
+.blog-tags{display:flex;gap:6px;flex-wrap:wrap;margin-top:10px}
+.blog-tag{font-size:11px;background:var(--navy);color:rgba(255,255,255,.8);padding:3px 10px;border-radius:20px}
+.blog-tag.draft-tag{background:var(--border);color:var(--text-muted)}
+</style>
+</head>
+<body>
+<nav><a href="index.html" class="nav-brand"><div class="nav-brand-text"><span class="name">Orsolya Gyarmati</span><span class="sub">Teaching Portfolio</span></div></a><button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false"><span></span></button><div class="nav-links"><a href="index.html">Home</a><a href="ib-story.html">My IB Story</a><a href="philosophy.html">Philosophy</a><a href="curriculum.html">Curriculum</a><a href="leadership.html">Leadership</a><a href="ai-education.html">AI in Education</a><a href="professional-learning.html">Professional Learning</a><a href="credentials.html">Credentials</a><a href="blog.html" class="active">Blog</a><a href="contact.html">Contact</a></div></nav>
+
+<div class="page-header">
+  <p class="eyebrow">Writing & Reflection</p>
+  <h1>Bridging Worlds Blog</h1>
+  <div class="gold-bar"></div>
+  <p class="lead">Thoughts on IB education, language acquisition, teaching in China, and what it means to be a reflective practitioner. Written from Chongqing — where East meets West every day in my classroom.</p>
+</div>
+
+<div class="content">
+
+  <div class="blog-grid">
+
+    <div class="blog-card">
+      <div class="meta">June 2026 · Reflective Practice · IB · Windsor University</div>
+      <h2>The Dangerous Kind of Reflection</h2>
+      <p>Confucius once said, "Learning without reflection is a waste. Reflection without learning is dangerous." Living and teaching in Chongqing, this quote has always felt personally close — but it is only now, within the IB framework, that I am beginning to truly understand it. A Grade 1 teacher and a notebook full of red-pen crossings-out taught me everything I thought I knew about reflection was wrong.</p>
+      <a href="post-reflection.html" class="read-more">Read full post →</a>
+      <div class="blog-tags">
+        <span class="blog-tag">Reflective Practice</span>
+        <span class="blog-tag">IB PYP</span>
+        <span class="blog-tag">Windsor University</span>
+        <span class="blog-tag">Multilingual Learners</span>
+      </div>
+    </div>
+
+    <div class="blog-card">
+      <div class="meta">July 2026 · IB in Practice · Inquiry-Based Learning · Chongqing</div>
+      <h2>"Is This Still English Class?" — What Happens When Inquiry Takes Over</h2>
+      <p>During a Grade 3 Women's Day card-making lesson done entirely in English, a student looked up and asked: "Is this still English class?" It was the best question anyone had asked all year. Here's what it taught me about authentic learning, language acquisition, and the gap between performing English and actually using it.</p>
+      <a href="post-english-class.html" class="read-more">Read full post →</a>
+      <div class="blog-tags">
+        <span class="blog-tag">Inquiry-Based Learning</span>
+        <span class="blog-tag">IB PYP</span>
+        <span class="blog-tag">Language Acquisition</span>
+        <span class="blog-tag">Authentic Tasks</span>
+      </div>
+    </div>
+
+    <div class="blog-card">
+      <div class="meta">June 2026 · AI in Education · IB Exchange</div>
+      <h2>What Joe Dale's Webinar Taught Me About Why I Still Matter</h2>
+      <p>For months I had been quietly asking myself the same uncomfortable question: why do my students still need me if AI can generate a personalised English lesson in seconds? A webinar gave me an unexpected answer — and it had nothing to do with technology.</p>
+      <a href="post-ai-webinar.html" class="read-more">Read full post →</a>
+      <div class="blog-tags">
+        <span class="blog-tag">AI in Education</span>
+        <span class="blog-tag">Language Acquisition</span>
+        <span class="blog-tag">IB Exchange</span>
+      </div>
+    </div>
+
+  </div>
+
+</div>
+
+<footer>
+  <p>© 2026 Orsolya Gyarmati · orsolya.gyarmati.educator@gmail.com · Chongqing, China</p>
+  <a href="https://linkedin.com/in/orsolya-gyarmati">linkedin.com/in/orsolya-gyarmati</a>
+  <p style="font-size:11px;color:rgba(255,255,255,.35);margin-top:8px;max-width:600px;line-height:1.5">Classroom and student images on this site are AI-generated illustrations. Real student photos are not published in order to protect student privacy.</p>
+</footer>
+<script src="nav.js" defer></script>
+</body></html>
